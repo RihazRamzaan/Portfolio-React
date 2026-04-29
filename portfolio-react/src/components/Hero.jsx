@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+import {motion} from 'framer-motion'
 import { useState, useEffect } from 'react'
 
 const words = ['Problem Solver.', 'Full Stack Developer.', 'Backend Engineer.', 'Tech Enthusiast.']
