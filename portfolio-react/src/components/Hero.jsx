@@ -153,7 +153,7 @@ export default function Hero() {
             boxShadow: '0 0 60px rgba(108,99,255,0.1)'
           }}>
 <img
-  src="/profile.jpg"
+  src="public/profile.jpg"
   alt="M. Rihaz Ramzaan"
   style={{
     width: 280,
