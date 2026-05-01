@@ -13,15 +13,16 @@ export default function Navbar() {
 
     return (
         <motion.nav
-        intial={{y: -80, opacity: 0}}
+        initial={{y: -80, opacity: 0}}
         animate = {{y: 0, opacity: 1}}
         transition= {{duration: 0.6}}
         style={{
             position: 'fixed', top:0, left:0, right:0,
+            zIndex: 100,
             height: '70px',
             display:'flex', alignItems:'center',justifyContent:'space-between',
             padding: '0 8vw',
-            background: scrolled ? 'rgba(10,10,15,0.85)':'transparent',
+            background: scrolled ? 'rgba(10,10,15,1)':'transparent',
             backdropFilter: scrolled? 'blur(12px)': 'none',
             borderBottom: scrolled ? '1px solid rgba(108,99,255,0.2)' : 'none',
             transition: 'all 0.3s ease'
