@@ -30,7 +30,7 @@ export default function Navbar() {
             <a href='#hero' style={{fontFamily: 'DM Sans', fontWeight: 700, fontSize: '1.3em', color: '#fff', textDecoration: 'none'}}>M 
             <span>.</span> Rihaz Ramzaan</a>
 
-            <ul style={{display:'flex', gap:'2.5rem', listStyle: 'none'}}>
+            <ul className="hide-on-mobile" style={{display:'flex', gap:'2.5rem', listStyle: 'none'}}>
                 {navLinks.map(link => (
                     <li key={link.label}>
                         <a  href={link.href} style={{

@@ -51,7 +51,7 @@ export default function Hero() {
         pointerEvents: 'none'
       }} />
 
-      <div style={{ display: 'flex', 
+      <div className="flex-col-mobile text-center-mobile" style={{ display: 'flex', 
         alignItems: 'center', 
         justifyContent: 'space-between',
         width: '100%',
@@ -105,6 +105,7 @@ export default function Hero() {
           </motion.p>
 
           <motion.div
+            className="hero-buttons"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.55 }}

@@ -37,3 +37,24 @@ body {
   background: var(--accent);
   border-radius: 3px;
 }
+
+/* Responsive Utilities */
+@media (max-width: 768px) {
+  .flex-col-mobile {
+    flex-direction: column-reverse !important;
+    gap: 3rem !important;
+  }
+  .hide-on-mobile {
+    display: none !important;
+  }
+  .text-center-mobile {
+    text-align: center !important;
+  }
+  .text-center-mobile p {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .text-center-mobile .hero-buttons {
+    justify-content: center !important;
+  }
+}
