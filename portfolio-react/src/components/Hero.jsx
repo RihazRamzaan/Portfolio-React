@@ -1,5 +1,6 @@
 import {motion} from 'framer-motion'
 import { useState, useEffect } from 'react'
+import profileImg from '../../public/profile.jpg'
 
 const words = ['Problem Solver.', 'Full Stack Developer.', 'Backend Engineer.', 'Tech Enthusiast.']
 
@@ -153,7 +154,7 @@ export default function Hero() {
             boxShadow: '0 0 60px rgba(108,99,255,0.1)'
           }}>
 <img
-  src="public/profile.jpg"
+  src={profileImg}
   alt="M. Rihaz Ramzaan"
   style={{
     width: 280,
